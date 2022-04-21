@@ -1,0 +1,57 @@
+#head{
+    background-color: brown;
+    height: 150px;
+    align-items: center;
+}
+
+#body{
+    background-color: rgb(236, 179, 73);
+    height: 670px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bottom{
+    background-color: brown;
+    height: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 92vh;
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(236, 189, 102);
+    color: black;
+    font-size: large;
+}
+
+fieldset{
+    border: 10px solid rgb(0, 0, 0);
+    height: 230 px;
+    width: 200px;
+}
+
+#div2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#candle{
+    height: 50px;
+    width: 40px;
+    margin: auto;
+}
+#div1{
+    font-size: large;
+}
